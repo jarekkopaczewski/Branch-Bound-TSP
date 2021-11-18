@@ -139,7 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="branch_and_bound.cpp" />
+    <ClCompile Include="BranchBound.cpp" />
+    <ClCompile Include="DataReader.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BranchBound.h" />
+    <ClInclude Include="DataReader.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
